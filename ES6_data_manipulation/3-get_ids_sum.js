@@ -4,4 +4,4 @@ export default function getStudentIdsSum(getListStudents) {
       const sum = getListStudents.reduce((sum, obj) => obj.id + sum, 0);
       return sum;
     }
-  
+}
