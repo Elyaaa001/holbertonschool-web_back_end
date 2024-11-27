@@ -1,5 +1,5 @@
-
-module.exports = {
+// eslint.config.js
+export default {
     env: {
       browser: false,
       es6: true,
@@ -29,11 +29,11 @@ module.exports = {
         'WithStatement',
       ],
     },
-    overrides:[
+    overrides: [
       {
         files: ['*.js'],
         excludedFiles: 'babel.config.js',
-      }
-    ]
+      },
+    ],
   };
   
