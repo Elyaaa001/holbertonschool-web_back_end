@@ -1,0 +1,1 @@
+asdync function
